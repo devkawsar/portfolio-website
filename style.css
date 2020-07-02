@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    font-family: 'Caveat', cursive;
+}
+h1{
+    font-size: 50px;
+}
+h1:hover{
+    color: rgb(206, 163, 163);
+}
+h2{
+    font-size: 30px;
+    
+}
+h3{
+    font-size: 20px;
+    
+}
+h4{
+    
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+.name-highlight{
+    color: chocolate;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.work-part{
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    padding-left: 25px;
+}
+.work-part img{
+    width: 100%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-part{
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+}
+.bio-part{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+}
+.work-area{
+    background-image: url("latest-work-bg.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.hh{
+    height: 800px;
+    padding-bottom: 150px;
+}
+.bb{
+    height: 800px;
+}
+.cc{
+    height: 400px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(50deg, rgb(221, 20, 121), pink);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    position: absolute; right 30px;
+}
+.email{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(209, 103, 221), rgb(240, 240, 245));
+    margin: 10px 40px;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.bottom{
+    height: 200px;
+}
+footer{
+    text-align: center;
+    background-image: url("footer-bg.png");
+   
+}
